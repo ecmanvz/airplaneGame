@@ -1,0 +1,14 @@
+﻿  Kaynak.cpp
+c:\users\funda\source\repos\project1\project1\kaynak.cpp(81): warning C4838: 'int ile 'SHORT arasında dönüştürme bir daraltma dönüştürmesi gerektiriyor
+c:\users\funda\source\repos\project1\project1\kaynak.cpp(128): warning C4309: '=': sabit değer kesildi
+c:\users\funda\source\repos\project1\project1\kaynak.cpp(210): warning C4309: '=': sabit değer kesildi
+c:\users\funda\source\repos\project1\project1\kaynak.cpp(257): warning C4805: '==' : işlemde güvenli olmayan 'int' türü ve 'bool' türü karışımı
+c:\users\funda\source\repos\project1\project1\kaynak.cpp(329): warning C4805: '==' : işlemde güvenli olmayan 'int' türü ve 'bool' türü karışımı
+c:\users\funda\source\repos\project1\project1\kaynak.cpp(356): warning C4309: '=': sabit değer kesildi
+c:\users\funda\source\repos\project1\project1\kaynak.cpp(368): warning C4309: '=': sabit değer kesildi
+c:\users\funda\source\repos\project1\project1\kaynak.cpp(405): warning C4805: '==' : işlemde güvenli olmayan 'int' türü ve 'bool' türü karışımı
+c:\users\funda\source\repos\project1\project1\kaynak.cpp(486): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+c:\users\funda\source\repos\project1\project1\kaynak.cpp(495): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+c:\users\funda\source\repos\project1\project1\kaynak.cpp(553): warning C4018: '<': imzalı/imzasız uyuşmazlığı
+c:\users\funda\source\repos\project1\project1\kaynak.cpp(605): warning C4244: 'bağımsız değişken': 'time_t' - 'unsigned int' dönüşümü; veri kaybı olabilir
+  Project1.vcxproj -> C:\Users\FUNDA\source\repos\Project1\Debug\Project1.exe
