@@ -1,16 +1,3 @@
-/****************************************************************************
-**						SAKARYA ÜNÝVERSÝTESÝ
-**				BÝLGÝSAYAR VE BÝLÝÞÝM BÝLÝMLERÝ FAKÜLTESÝ
-**					BÝLGÝSAYAR MÜHENDÝSLÝÐÝ BÖLÜMÜ
-**					 PROGRAMLAMAYA GÝRÝÞÝ DERSÝ
-**
-**					ÖDEV NUMARASI…...:PROJE ÖDEVÝ
-**					ÖÐRENCÝ ADI......:ECEM AMANVERMEZ
-**					ÖÐRENCÝ NUMARASI.:
-**					DERS GRUBU.......:2A
-****************************************************************************/
-
-
 //#include "pch.h"
 #include <iostream>
 #include <Windows.h>
@@ -436,7 +423,7 @@ public:
 	Oynatici();
 	~Oynatici();
 
-	//ön yükleme ön hazýrlýk
+	//Ã¶n yÃ¼kleme Ã¶n hazÄ±rlÄ±k
 	void oyna();
 	void kaybettiniz();
 	void mermi_kontrol(Dusman*, Sahne*);
@@ -479,7 +466,7 @@ Oynatici::~Oynatici()
 void Oynatici::oyna()
 {
 
-	while (ucak->aktif) //ucak ölmediyse
+	while (ucak->aktif) //ucak Ã¶lmediyse
 	{
 		if (mermiler[mermi_sayac]->aktif)
 		{
@@ -532,10 +519,10 @@ void Oynatici::oyna()
 			char ch = _getch();
 			switch (ch)
 			{
-			case 72: //yukarý ok
+			case 72: //yukarÄ± ok
 				ucak->hareket(sahne, 0);
 				break;
-			case 80: // aþaðý ok
+			case 80: // aÅŸaÄŸÄ± ok
 				ucak->hareket(sahne, 1);
 				break;
 			case ' ': // space
